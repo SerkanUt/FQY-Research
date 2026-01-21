@@ -1,0 +1,9 @@
+# Large model files - too big for GitHub
+results/
+trained_model/
+embedding caches/*.pt
+*.safetensors
+*.pt
+logs/
+__pycache__/
+.ipynb_checkpoints/

@@ -582,7 +582,7 @@ def get_mol2vec_embeddings_for_df(
     model_path: Optional[str] = None,
     train_if_missing: bool = True,
     vector_size: int = 300,
-    cache_file: str = "mol2vec_embedding_cache.pt"
+    cache_file: str = "embedding caches/mol2vec_embedding_cache.pt"
 ) -> Tuple[np.ndarray, np.ndarray, "Mol2VecEmbedder"]:
     """
     Generate Mol2vec embeddings for chromophores and solvents from a DataFrame.
@@ -720,3 +720,8 @@ if __name__ == "__main__":
 
 
 
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
