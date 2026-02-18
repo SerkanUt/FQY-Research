@@ -4,6 +4,8 @@ trained_model/
 embedding caches/*.pt
 *.safetensors
 *.pt
+*.npy
+model_data/
 logs/
 __pycache__/
 .ipynb_checkpoints/
