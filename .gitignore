@@ -1,11 +1,13 @@
 # Large model files - too big for GitHub
 results/
 trained_model/
-# embedding caches are now tracked
 *.safetensors
-*.pt
 *.npy
 model_data/
 logs/
 __pycache__/
 .ipynb_checkpoints/
+
+# Ignore .pt files except in embedding caches
+*.pt
+!embedding caches/*.pt
