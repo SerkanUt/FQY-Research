@@ -11,3 +11,4 @@ __pycache__/
 # Ignore .pt files except in embedding caches
 *.pt
 !embedding caches/*.pt
+!embedding_caches/*.pt
