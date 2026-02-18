@@ -1,7 +1,7 @@
 # Large model files - too big for GitHub
 results/
 trained_model/
-embedding caches/*.pt
+# embedding caches are now tracked
 *.safetensors
 *.pt
 *.npy
